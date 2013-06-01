@@ -215,17 +215,17 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'earth_allassist',
-      'username' => 'earth_allassist',
-      'password' => 'admin1234',
-      'host' => 'all-assist.co.th',
+      'database' => 'all-assist',
+      'username' => 'root',
+      'password' => 'root',
+      'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
       'prefix' => '',
     ),
   ),
 );
-
+/* Online Host will be "all-assist.co.th" */
 /**
  * Access control for update.php script.
  *
