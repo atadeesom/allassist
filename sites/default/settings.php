@@ -225,7 +225,7 @@ $databases = array (
     ),
   ),
 );
-/* Online Host will be "all-assist.co.th" */
+
 /**
  * Access control for update.php script.
  *
@@ -256,7 +256,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = 'jbtJgfAnNkb12ZKZ3VX-IKSmXpdNTuqoBJzetKOMyDY';
+$drupal_hash_salt = 'HehnmBe5nIjErws2UP80ql45fg71nCD3D8qvYpYQOsg';
 
 /**
  * Base URL (optional).
