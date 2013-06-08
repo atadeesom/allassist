@@ -1,0 +1,243 @@
+/*
+ * Project      : All Assist
+ * Section      : Global style
+ * Framework    : HTML5 Boiler Plate
+ * Version      : 1.0
+ * Last update  : 2013-02-01
+ * Author       : Natthakritta Phadung
+*/
+/* -------------------------------------------------------------------------- */
+/* FRAMEWORKS */
+@import "h5bp.css";
+/* -------------------------------------------------------------------------- */
+
+/* STANDARD HTML TAG */
+h1, h2, h3, p, ol, ul {
+  margin: 0;
+  padding: 0
+}
+h1, h2, h3 {
+  font-family: Sansus Webissimo;
+}
+h1 {
+  font-size: 22px;
+}
+p {
+  font-family: tahoma;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 10px;
+}
+ol, ul {
+  list-style: none;
+}
+legend, input, button {
+  background: none;
+  border: none;
+}
+a, a:visited {
+  text-decoration: none;
+}
+/* -------------------------------------------------------------------------- */
+/* STRUCTURAL LAYOUT */
+body ,html {
+  font-family: arial;
+  border: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.container {
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  height: auto !important;
+  border: none;
+  margin: 0 auto;
+  }
+  .wrapper {
+    height: auto;
+    width: 960px;
+    margin: 0 auto;
+  }
+/* -------------------------------------------------------------------------- */
+/* HEADER */
+/* -------------------------------------------------------------------------- */
+/* LOGO */
+.header {
+  background-color: #000;
+  height: 95px;
+  width: 100%;
+}
+.header .logo {
+  float: left;
+  height: 74px;
+  width: 160px;
+  margin: 7px 0 0 0;
+}
+/* navigation */
+.nav-container {
+
+}
+.nav-container ul {
+  height: 100%;
+  }
+.nav-container ul li {
+  float: left;
+  height: 93px;
+}
+.nav-container ul li a {
+  color: #fff;
+  display: block;
+  font-family: Sansus Webissimo;
+  font-size: 15px;
+  line-height: 6.5em;
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+.nav-container ul li a:hover {
+  background-color: #303030;
+  color: #fff !important;
+}
+.nav-container ul li a.current {
+  border-top: 2px solid #f31c21;
+}
+
+/* -------------------------------------------------------------------------- */
+/* main container */
+.main {
+  background-color: #fff;
+  width: 100%;
+  position: relative;
+  padding-bottom: 36px;
+  }
+/* section1 */
+.section1 {
+  background-color: #fbf5d5;
+  height: auto;
+  margin-bottom: 30px;
+  padding-bottom: 26px;
+}
+/* SLIDES */
+.main .slide-container {
+  padding-top: 20px;
+  /*height: 329px;*/
+}
+/* section2 */
+.section2 h1 {
+  border-bottom: 1px solid #a6d13b;
+  margin-bottom: 12px;
+}
+.service {
+  padding: 0 10px 0 10px;
+  margin: 40px 0 0 0;
+}
+.col1 , .col2 ,.col3 {
+  width: 300px;
+  padding: 0 20px 0 0;
+}
+span {
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  width: 53px;
+  height: 40px;
+  margin-right: 27px;
+  padding-top: 10px;
+  text-align: center;
+}
+.service p , .service a {
+  color: #c6c6c6;
+  font-family: arial;
+  padding-left: 80px;
+}
+.service a {
+  display: inline-block;
+  padding-top: 16px;
+}
+.service a:hover
+{
+  color: #f31c21;
+}
+.service img {
+  margin-bottom: 18px;
+}
+/* -------------------------------------------------------------------------- */
+/* virtual office */
+.virtual-office.main .col1 ,
+.virtual-office.main .col2 ,
+.virtual-office.main .col3 ,
+.virtual-office.main .col4 {
+  width: 220px;
+  text-align: center;
+}
+/* -------------------------------------------------------------------------- */
+/* business service */
+.business-service.main {
+  padding: 0;
+}
+/* -------------------------------------------------------------------------- */
+/* personal coverage service */
+.personal.servive {
+  background: url("../images/dummy-personal.png") 0 0 no-repeat;
+  width: 960px;
+  height: 350px;
+  margin-top: 20px;
+}
+/* -------------------------------------------------------------------------- */
+/* footer */
+.footer {
+  background-color: #000;
+  padding-top: 12px;
+}
+.contact-title , .contact-detail , .footer p {
+  color: #504b4b;
+  font-family: arial;
+  font-size: 13px;
+}
+.copy-right {
+  color: #858585;
+  font-size: 14px;
+}
+.footer p {
+  text-align: right;
+}
+/* -------------------------------------------------------------------------- */
+/* tools */
+.first {
+  margin-left: 0;
+  padding-left: 0;
+}
+.last {
+  margin-right: 0;
+  padding-right: 0;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.red-txt {
+  color: #f31c21;
+}
+.red {
+  background-color: #f31c21;
+}
+.green-txt {
+  color: #a6d13b;
+}
+.green {
+  background-color: #a6d13b;
+}
+.beige-txt {
+  color: #f4ba8b;
+}
+.beige {
+  background-color: #f4ba8b;
+}
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {content: ""; display: table}
+.clearfix:after {clear: both}
+.clearfix {*zoom: 1}
