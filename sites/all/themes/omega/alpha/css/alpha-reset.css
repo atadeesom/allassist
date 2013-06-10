@@ -3,9 +3,10 @@ html, body, div {
   padding: 0; 
   border: 0; 
   outline: 0; 
-  font-size: 100%; 
   vertical-align: baseline; 
-  font: inherit;
+  font-family: arial;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -123,4 +124,33 @@ del {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+#zone-branding-wrapper {
+  margin: 0; 
+  padding: 20px; 
+  border: 0; 
+  outline: 0; 
+  font-size: 100%; 
+  vertical-align: baseline; 
+  font: inherit;
+  background-color: #000;
+}
+
+#zone-menu-wrapper {
+  background-color: #494949;
+  height: 36px;
+  color: #fff;
+  text-shadow: none;
+}
+#zone-header-wrapper{
+  background-color: #fbf5d5;
+  height: auto;
+  margin-bottom: 30px;
+  padding-bottom: 26px;
+}
+#section-footer{
+  background-color: #000;
+  padding-top: 12px;
+  color: #fff;
 }
