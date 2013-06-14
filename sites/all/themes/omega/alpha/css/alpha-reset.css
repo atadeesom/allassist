@@ -1,79 +1,79 @@
 html, body, div {
-  margin: 0; 
-  padding: 0; 
-  border: 0; 
-  outline: 0; 
-  vertical-align: baseline; 
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
   font-family: arial;
   font-size: 1em;
   line-height: 1.4;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0; 
-  padding: 0; 
-  border: 0; 
-  outline: 0; 
-  font-size: 100%; 
-  vertical-align: baseline; 
-  font: inherit; 
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font: inherit;
   font-weight: bold;
 }
 
 a, p, ul, ol, li, img, span, strong, em {
-  margin: 0; 
-  padding: 0; 
-  border: 0; 
-  outline: 0; 
-  font-size: 100%; 
-  vertical-align: baseline; 
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
   font: inherit;
 }
 
 table, tbody, tfoot, thead, tr, th, td {
-  margin: 0; 
-  padding: 0; 
-  border: 0; 
-  outline: 0; 
-  font-size: 100%; 
-  vertical-align: baseline; 
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
   font: inherit;
 }
 
 applet, object, iframe, blockquote, pre, abbr, acronym, address, big, cite, code,
 del, dfn, font, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var,
 b, u, i, center, dl, dt, dd, caption, fieldset, form, label, legend {
-  margin: 0; 
-  padding: 0; 
-  border: 0; 
-  outline: 0; 
-  font-size: 100%; 
-  vertical-align: baseline; 
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
   font: inherit;
 }
 
 article, aside, figure, footer, header, hgroup, section {
-  margin: 0; 
-  padding: 0; 
-  border: 0; 
+  margin: 0;
+  padding: 0;
+  border: 0;
   outline: 0;
-  font-size: 100%; 
-  vertical-align: baseline; 
+  font-size: 100%;
+  vertical-align: baseline;
   font: inherit;
 }
 
 canvas, details, embed, figcaption, menu, nav, output, ruby, summary, time, mark, audio, video {
-  margin: 0; 
-  padding: 0; 
-  border: 0; 
-  outline: 0; 
-  font-size: 100%; 
-  vertical-align: baseline; 
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
   font: inherit;
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
@@ -126,31 +126,3 @@ table {
   border-spacing: 0;
 }
 
-#zone-branding-wrapper {
-  margin: 0; 
-  padding: 20px; 
-  border: 0; 
-  outline: 0; 
-  font-size: 100%; 
-  vertical-align: baseline; 
-  font: inherit;
-  background-color: #000;
-}
-
-#zone-menu-wrapper {
-  background-color: #494949;
-  height: 36px;
-  color: #fff;
-  text-shadow: none;
-}
-#zone-header-wrapper{
-  background-color: #fbf5d5;
-  height: auto;
-  margin-bottom: 30px;
-  padding-bottom: 26px;
-}
-#section-footer{
-  background-color: #000;
-  padding-top: 12px;
-  color: #fff;
-}
