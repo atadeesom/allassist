@@ -1,3 +1,63 @@
-#zone-branding-wrapper{
-	background-color: #000;
+#zone-branding-wrapper {
+  margin: 0;
+  padding: 20px;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font: inherit;
+  background-color: #000;
+}
+#zone-menu-wrapper {
+  background-color: #494949;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-shadow: none;
+}
+#zone-header-wrapper{
+  background-color: #fbf5d5;
+  height: auto;
+  margin-bottom: 30px;
+  padding-bottom: 26px;
+}
+#section-footer{
+  background-color: #000;
+  padding-top: 12px;
+  color: #fff;
+}
+#zone-branding .zone-branding {
+	max-width: 980px;
+	margin: 0 auto;
+}
+.region-branding-inner ,#zone-menu ,.views-field-field-image img ,
+#zone-header , #zone-content ,.region-content-inner {
+	max-width: 980px;
+	margin: 0 auto;
+}
+.logo-img {
+	margin-left: 12px;
+}
+h1, h2, h3 {
+font-family: Sansus Webissimo , arial;
+}
+h1 {
+	font-size: 22px;
+	border-bottom: 1px solid #a6d13b;
+	margin-bottom: 12px;
+}
+a , a:hover , a:visited {
+	text-decoration: none;
+}
+/* main menu */
+#main-menu a {
+	color: #fff;
+	font-family: Sansus Webissimo, arial;
+	font-size: 15px;
+	padding: 0 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+#main-menu a:hover ,#main-menu a.active {
+	color: #a6d13b;
 }
