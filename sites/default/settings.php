@@ -215,9 +215,9 @@ $databases = array (
   array (
     'default' =>
     array (
-      'database' => 'all-assist',
+      'database' => 'devallassist',
       'username' => 'root',
-      'password' => 'root',
+      'password' => '',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
