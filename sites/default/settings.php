@@ -215,6 +215,22 @@ $databases = array (
   array (
     'default' =>
     array (
+      'database' => 'devallassist',
+      'username' => 'root',
+      'password' => '',
+      'host' => 'localhost',
+      'port' => '',
+      'driver' => 'mysql',
+      'prefix' => '',
+    ),
+  ),
+);
+/* Magmai Solution
+$databases = array (
+  'default' =>
+  array (
+    'default' =>
+    array (
       'database' => 'all-assist',
       'username' => 'root',
       'password' => 'root',
@@ -225,7 +241,7 @@ $databases = array (
     ),
   ),
 );
-
+*/
 /**
  * Access control for update.php script.
  *
