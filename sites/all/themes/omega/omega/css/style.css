@@ -46,8 +46,33 @@ h1 {
 	border-bottom: 1px solid #a6d13b;
 	margin-bottom: 12px;
 }
+h2 {
+  font-size: 18px;
+}
+h2 a { font-size: 18px; text-decoration: none !important;}
+p {
+  font-family: tahoma;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 10px;
+}
+ol, ul {
+  list-style: none;
+}
 a , a:hover , a:visited {
 	text-decoration: none;
+}
+/* -------------------------------------------------------------------------- */
+/* STRUCTURAL LAYOUT */
+body ,html {
+  font-family: arial;
+  border: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.region-content {
+  padding-bottom: 30px;
 }
 /* main menu */
 #main-menu a {
@@ -61,3 +86,12 @@ a , a:hover , a:visited {
 #main-menu a:hover ,#main-menu a.active {
 	color: #a6d13b;
 }
+.region-content .field-name-field-blocks .field-item {
+  float: left;
+  margin-right: 10px;
+}
+
+
+
+
+

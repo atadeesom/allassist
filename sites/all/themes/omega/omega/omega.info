@@ -73,7 +73,6 @@ css[omega-visuals.css][name] = Omega Styles
 css[omega-visuals.css][description] = Custom visual styles for Omega. (pagers, menus, etc.)
 css[omega-visuals.css][options][weight] = -10
 
-
 css[style.css][name] = 'All Assist Styles'
 css[style.css][description] = 'Custom Style for All Assit on Omega'
 css[style.css][options][weight] = '10'
