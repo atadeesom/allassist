@@ -3,7 +3,7 @@
   <?php print $user_picture; ?>
   <?php print render($title_prefix); ?>
   <?php if (!$page && $title): ?>
-	<?php if($title == "Personal Coverage Services"): ?>
+	<?php if(strpos($attributes,'node-list-details') != false): ?>
 	  <header>
 	    <p<?php print $title_attributes; ?>>
 	      <!-- <a href="<?php //print $node_url ?>" title="<?php //print $title ?>"><?php //print $title ?></a> -->
@@ -14,7 +14,7 @@
   <?php endif; ?>
   <?php print render($title_suffix); ?>
   <?php if ($display_submitted): ?>
-  <footer class="submitted"><?php print $date; ?> -- <?php print $name; ?></footer>
+  <div class="articledate"><?php print $date; ?> -- <?php print $name; ?></div>
   <?php endif; ?>  
   
   <div<?php print $content_attributes; ?>>
@@ -22,11 +22,12 @@
       // We hide the comments and links now so that we can render them later.
       hide($content['comments']);
       hide($content['links']);
-      print render($content);
-    ?>
+      print render($content); 
+    ?><!-- Here Magmai 
+  <?php print render($content); ?>-->
   </div>
   <?php if (!$page && $title): ?>
-	<?php if($title != "Personal Coverage Services"): ?>
+	<?php if(strpos($attributes,'node-list-details') == false): ?>
 	  <header>
 	    <p<?php print $title_attributes; ?>>
 	      <!-- <a href="<?php //print $node_url ?>" title="<?php //print $title ?>"><?php //print $title ?></a> -->

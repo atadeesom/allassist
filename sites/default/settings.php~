@@ -210,6 +210,24 @@
  *   );
  * @endcode
  */
+/* Fong Solution
+$databases = array (
+  'default' =>
+  array (
+    'default' =>
+    array (
+      'database' => 'devallassist',
+      'username' => 'root',
+      'password' => '',
+      'host' => 'localhost',
+      'port' => '',
+      'driver' => 'mysql',
+      'prefix' => '',
+    ),
+  ),
+);
+*/
+/* Magmai Solution */
 $databases = array (
   'default' =>
   array (
