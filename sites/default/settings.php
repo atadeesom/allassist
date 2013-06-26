@@ -210,7 +210,7 @@
  *   );
  * @endcode
  */
-/* Fong Solution
+/* Fong Solution */
 $databases = array (
   'default' =>
   array (
@@ -226,8 +226,8 @@ $databases = array (
     ),
   ),
 );
-*/
-/* Magmai Solution */
+
+/* Magmai Solution 
 $databases = array (
   'default' =>
   array (
@@ -243,7 +243,7 @@ $databases = array (
     ),
   ),
 );
-
+*/
 /**
  * Access control for update.php script.
  *
