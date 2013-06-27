@@ -88,9 +88,55 @@ body ,html {
 }
 .region-content .field-name-field-blocks .field-item {
   float: left;
-  margin-right: 10px;
+  margin-right: 20px;
 }
-
+/* home */
+.block-inner .view-list-block .views-row  {
+  float: left;
+  margin-right: 20px;
+  width: 270px;
+}
+.block-inner .view-list-block .views-field-title span a {
+  color: #a6d13b;
+  font-size: 16px;
+  text-decoration: none;
+}
+.block-inner .view-list-block .field-content a {
+  color: #c6c6c6;
+  font-size: 14px;
+  text-decoration: none;
+}
+/* article list */
+.region-content .view-articles .views-row {
+  margin-top: 20px;
+}
+.page-articles .view-id-articles a img {
+  background-color: pink;
+  display: inline-block;
+  float: left;
+  font-size: 18px;
+  margin-top: 20px;
+  max-width: 500px;
+  text-decoration: none;
+}
+.page-articles .view-id-articles p {
+  margin-top: 20px;
+  padding-left: 500px;
+}
+.page-articles .view-id-articles a {
+  font-size: 18px;
+  left: 0;
+  text-decoration: none;
+}
+/* article detail */
+.submitted {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.articledate {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
 
 
 

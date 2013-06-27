@@ -17,15 +17,14 @@
   <div class="articledate"><?php print $date; ?> -- <?php print $name; ?></div>
   <?php endif; ?>  
   
-  <div<?php print $content_attributes; ?>>
+  <!-- <div<?php //print $content_attributes; ?>> -->
     <?php
       // We hide the comments and links now so that we can render them later.
       hide($content['comments']);
       hide($content['links']);
       print render($content); 
-    ?><!-- Here Magmai 
-  <?php print render($content); ?>-->
-  </div>
+    ?>
+  <!-- </div> -->
   <?php if (!$page && $title): ?>
 	<?php if(strpos($attributes,'node-list-details') == false): ?>
 	  <header>
