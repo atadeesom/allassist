@@ -166,8 +166,32 @@ body ,html {
 /* contact us */
 .block-without-title {float: left; margin-right: 50px;}
 article.node-webform {
-  float: left;
+  float: right;
 }
-
+.edit-submitted-your-full-name {
+  border: none;
+}
+.context-contact-us p strong ,.context-contact-us label {
+  color: #858585;
+  font-family: Sansus Webissimo, arial;
+  font-size: 16px;
+}
+.context-contact-us .block-inner {
+  margin-top: 16px;
+}
+.form-checkboxes .form-item, .form-radios .form-item ,label {
+  margin-bottom: 16px !important;
+}
+.context-contact-us input ,.context-contact-us label {
+  margin-right: 10px;
+}
+textarea, select, input[type="date"], input[type="datetime"],
+input[type="datetime-local"], input[type="email"], input[type="month"],
+input[type="number"], input[type="password"], input[type="search"],
+input[type="tel"], input[type="text"], input[type="time"],
+input[type="url"], input[type="week"] {
+  background-color: #e1e1e1;
+  border: none;
+}
 
 
