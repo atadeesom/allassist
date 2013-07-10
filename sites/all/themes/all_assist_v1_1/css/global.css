@@ -19,7 +19,6 @@
   background-color: #fbf5d5;
   height: auto;
   margin-bottom: 30px;
-  padding-bottom: 26px;
 }
 #section-footer{
   background-color: #000;
@@ -50,6 +49,7 @@ h2 {
   font-size: 18px;
 }
 h2 a { font-size: 18px; text-decoration: none !important;}
+h2.field-content a { margin-top: 20px;}
 p {
   font-family: tahoma;
   font-size: 16px;
@@ -61,6 +61,7 @@ ol, ul {
 }
 #region-content ul { padding-left: 0; margin-left: 0;}
 #region-content ul li { font-size:16px; margin-bottom: 10px; }
+.item-list ul li { margin-left: 0; }
 #region-content ul li img { vertical-align: middle; margin-top: -4px; }
 a , a:hover , a:visited {
 	text-decoration: none;
@@ -86,7 +87,7 @@ body ,html {
   vertical-align: top;
 }
 .field-items .list-desc { display: inline-block; }
-.field-items .list-desc { max-width: 960px; }
+.field-items .list-desc { max-width: 810px; }
 .field-items .list-desc h2 { margin-bottom: 0; }
 
 /* main menu */
@@ -103,7 +104,7 @@ body ,html {
 }
 .region-content .field-name-field-blocks .field-item {
   float: left;
-  height: 124px;
+  /*height: 124px;*/
   max-width: 220px;
   margin-bottom: 10px;
   margin-right: 32px;
@@ -118,11 +119,15 @@ body ,html {
 .rteright {
   margin-bottom: 0;
 }
+#zone-footer-wrapper #region-footer-second .block-without-title {
+  margin-right: 0;
+}
 /* home */
 .block-inner .view-list-block .views-row  {
   float: left;
   margin-right: 20px;
-  width: 270px;
+  width: 245px;
+  margin-bottom: 20px;
 }
 .block-inner .view-list-block .views-field-title span a {
   color: #a6d13b;
@@ -134,7 +139,26 @@ body ,html {
   font-size: 14px;
   text-decoration: none;
 }
+.page-homepage .block-lasted-articles-block {
+  clear: both;
+}
+.page-homepage .item-list ul li {
+  margin-left: 0;
+}
+.page-homepage .item-list ul li a {
+  text-decoration: none !important;
+}
 /* article list */
+#edit-submit-articles , #edit-submit {
+  background-color: #A6D13B !important;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 5px 20px;
+}
+.views-exposed-form label { float: left; font-size: 14px; margin-right: 10px;}
+.views-widget { float: left;}
+.views-widget #edit-keys { width: 200px;}
 .region-content .view-articles .views-row {
   margin-top: 20px;
 }
@@ -154,6 +178,9 @@ body ,html {
   left: 0;
   text-decoration: none;
 }
+.views-exposed-form .views-exposed-widget .form-submit {
+  margin-top: 0;
+}
 /* article detail */
 .submitted {
   font-size: 16px;
@@ -163,10 +190,18 @@ body ,html {
   font-size: 16px;
   margin-bottom: 20px;
 }
+/* virtual office */
+.header {
+  display: inline-block;
+}
 /* contact us */
-.block-without-title {float: left; margin-right: 50px;}
+.context-contact-us .block-without-title {
+  float: left;
+  margin-bottom: 30px;
+  margin-right: 10%;
+}
 article.node-webform {
-  float: right;
+  float: left;
 }
 .edit-submitted-your-full-name {
   border: none;
@@ -192,6 +227,49 @@ input[type="tel"], input[type="text"], input[type="time"],
 input[type="url"], input[type="week"] {
   background-color: #e1e1e1;
   border: none;
+}
+.flexslider {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.webform-client-form {
+  position: relative;
+}
+#webform-component-please-leave-your-email label ,
+#webform-component-please-leave-your-phone-number label ,
+#webform-component-please-leave-your-skype label {
+  display: none;
+}
+#webform-component-please-leave-your-email input {
+  position: absolute;
+  top: 109px;
+  left: 102px;
+}
+#webform-component-please-leave-your-phone-number input {
+  position: absolute;
+  top: 149px;
+  left: 102px;
+}
+#webform-component-please-leave-your-skype input {
+  position: absolute;
+  top: 189px;
+  left: 102px;
+}
+input#edit-submitted-which-way-do-you-prefer-when-we-contact-you-back-other {
+  position: absolute;
+  top: 225px;
+  left: 102px;
+}
+/* last article */
+.block-views-lasted-articles-block  h2 {
+
+}
+.block-views-lasted-articles-block a {
+  color: #8F9094;
+  text-decoration: none;
+}
+.block-views-lasted-articles-block a:hover {
+  color: #A6D13B;
 }
 
 
