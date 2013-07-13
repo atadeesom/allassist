@@ -243,22 +243,22 @@ input[type="url"], input[type="week"] {
 #webform-component-please-leave-your-email input {
   position: absolute;
   top: 109px;
-  left: 102px;
+  left: 112px;
 }
 #webform-component-please-leave-your-phone-number input {
   position: absolute;
   top: 149px;
-  left: 102px;
+  left: 112px;
 }
 #webform-component-please-leave-your-skype input {
   position: absolute;
   top: 189px;
-  left: 102px;
+  left: 112px;
 }
 input#edit-submitted-which-way-do-you-prefer-when-we-contact-you-back-other {
   position: absolute;
   top: 225px;
-  left: 102px;
+  left: 112px;
 }
 /* last article */
 .block-views-lasted-articles-block  h2 {
@@ -270,6 +270,49 @@ input#edit-submitted-which-way-do-you-prefer-when-we-contact-you-back-other {
 }
 .block-views-lasted-articles-block a:hover {
   color: #A6D13B;
+}
+
+/* iphone 3-4 */
+@media (max-width: 320px) {
+  .navigation ul#main-menu a {
+    font-size: 10px;
+    padding: 0 4px;
+  }
+
+}
+/* mobile*/
+@media (max-width: 480px) {
+  .navigation ul#main-menu a {
+    font-size: 12px;
+    padding: 0 2px !important;
+  }
+  p {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 16px !important;
+  }
+  #webform-component-please-leave-your-email input {
+    position: absolute;
+    top: 151px;
+    left: 114px;
+  }
+  #webform-component-please-leave-your-phone-number input {
+    position: absolute;
+    top: 191px;
+    left: 114px;
+  }
+  #webform-component-please-leave-your-skype input {
+    position: absolute;
+    top: 229px;
+    left: 114px;
+  }
+  input#edit-submitted-which-way-do-you-prefer-when-we-contact-you-back-other {
+    position: absolute;
+    top: 269px;
+    left: 114px;
+    width: 252px;
+  }
 }
 
 
